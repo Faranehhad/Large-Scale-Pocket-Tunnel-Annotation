@@ -1,6 +1,6 @@
 # large-scale-pocket-tunnel-annotation
 This repository contains scripts for the paper:<br>
-Large-scale Annotation of Biochemically Relevant Pockets and Tunnels in Cognate Enzyme-Ligand Complexes.
+Large-scale Annotation of Biochemically Relevant Pockets and Tunnels in Cognate Enzyme-Ligand Complexes. <br>
 O. Vavra, J. Tyzack, F. Haddadi, J. Stourac, J. Damborsky, S. Mazurenko, J. Thornton, D. Bednar
 bioRxiv 2023.03.29.534735; doi: https://doi.org/10.1101/2023.03.29.534735
 
