@@ -678,27 +678,22 @@ df['3class_GB']= ynewl_GB
 df_test['3class_GB']= ynewl_test_GB
 
 #for two_class predictor
-df2['2class_KNN']= ynewl_KNN2
-df_test2['2class_KNN']= ynewl_test_KNN2
-df2['2class_SVM']= ynewl_SVM2
-df_test2['2class_SVM']= ynewl_test_SVM2
-df2['2class_RF']= ynewl_RF2
-df_test2['2class_RF']= ynewl_test_RF2
-df2['2class_NN']= ynewl_MLP2
-df_test2['2class_NN']= ynewl_test_MLP2
-df2['2class_GB']= ynewl_GB2
-df_test2['2class_GB']= ynewl_test_GB2
-print (df)
-print (df_test)
-print (df2)
-#for two_class predictor
-print (df_test2)
+df['2class_KNN']= ynewl_KNN2
+df_test['2class_KNN']= ynewl_test_KNN2
+df['2class_SVM']= ynewl_SVM2
+df_test['2class_SVM']= ynewl_test_SVM2
+df['2class_RF']= ynewl_RF2
+df_test['2class_RF']= ynewl_test_RF2
+df['2class_NN']= ynewl_MLP2
+df_test['2class_NN']= ynewl_test_MLP2
+df['2class_GB']= ynewl_GB2
+df_test['2class_GB']= ynewl_test_GB2
+
 
 """# Save the files"""
 
 # Save DataFrames to CSV files
 
-df.to_csv('df.csv', index=False)
-df_test.to_csv('df_test.csv', index=False)
-df2.to_csv('df2.csv', index=False)
-df_test2.to_csv('df_test2.csv', index=False)
+df.to_csv('train.csv', index=False)
+df_test.to_csv('test.csv', index=False)
+
